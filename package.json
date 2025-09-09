@@ -1,0 +1,20 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "## How to run `npx cucumber-js test`",
+  "main": "index.js",
+  "scripts": {
+    "testCI": "cucumber-js",
+    "testLocal": "VIDEO=true cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10",
+    "fs-extra": "^11.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
